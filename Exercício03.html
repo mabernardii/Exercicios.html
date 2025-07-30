@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="
+3 - Faça um programa em javascript para ler o salário de um funcionário e aumentá-Io em 15%. 
+Após o aumento, desconte 8% de impostos. Exiba o salário inicial, o salário com o aumento e o salário final.">
+    <title>salario</title>
+</head>
+<body>
+    <script>
+      let salário = Number(prompt("Insira o salário atual do funcionário: R$"));
+      let aumento = (salário * 0.15) + salário;
+      let imposto = (aumento * 0.08) + salário;
+      alert("O salário inicial é de: R$"+salário+"\nO salário com o aumento de 15% é de R$"+aumento+ "\nO novo salário com desconto de 8% de imposto é de: R$"+imposto);
+    </script>
+</body>
+</html>
